@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset style="background-color: blue;">
+      <legend style="background-color: rgb(226, 87, 87);">personal Data</legend>
+      <fieldset style="background-color: rgb(224, 84, 84); margin: 30px 0;">
+        <legend style="background-color: blue;">Your Name</legend>
+        <form>
+          <label for="first">First Name : </label>
+          <input type="text" name="first" id="first" /><br />
+          <label for="last">Last Name : </label>
+          <input type="text" name="last" id="last" />
+        </form>
+      </fieldset>
+      <form style="margin: 50px 0;">
+        <label for="phone">Phone : </label>
+        <input type="text" name="phone" id="phone" /><br />
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" /><br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password"  minlength="8" maxlength="16"/><br/>
+        <label for="repassword">Re Password : </label>
+        <input type="password" name="repassword" id="repassword"  minlength="8" maxlength="16"/><br/>
+        <select style="margin: 30px 0;" name="country">
+            <optgroup label="Egypt">
+                <option value="cairo">cairo</option>
+                <option value="alex">Alex</option>
+                <option value="mansoura">Mansoura</option>
+            </optgroup>
+            <optgroup label="UEA">
+                <option value="abuDhabi">Abu Dhabi</option>
+                <option value="ajman">Ajman</option>
+            </optgroup>
+            <optgroup label="Saudi Arabia">
+                <option value="riyadh">Riyadh</option>
+                <option value="jaddah">Jaddah</option>
+            
+            </optgroup>
+        </select><br>
+        <button style="background-color: rgb(238, 46, 46);" type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

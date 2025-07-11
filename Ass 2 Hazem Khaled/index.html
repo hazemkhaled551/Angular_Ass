@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ass 2</title>
+  </head>
+  <body>
+    <header style="border: 1px solid black; padding: 8px">
+      <h1>Welcome To Semantic HTML Showcase</h1>
+      <mark>This page is designed using semanyic HTML5 tags</mark>
+    </header>
+    <nav style="border: 1px solid black; padding: 8px; margin-top: 8px">
+      <ul style="display: flex; list-style: none">
+        <li style="margin-right: 15px"><a href="">About</a></li>
+        <li style="margin-right: 15px"><a href="">Feature</a></li>
+        <li style="margin-right: 15px"><a href="">Contact</a></li>
+        <li style="margin-right: 15px"><a href="">Comingsoon</a></li>
+      </ul>
+    </nav>
+    <main style="border: 1px solid black; padding: 8px; margin-top: 8px">
+      <aside
+        class="about"
+        style="border: 1px solid black; padding: 8px; margin-top: 8px"
+      >
+        <h2>About semantic HTML</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          doloremque, molestiae ipsa commodi aspernatur consectetur corporis
+          deserunt qui laudantium numquam.
+        </p>
+      </aside>
+      <article style="border: 1px solid black; padding: 8px; margin-top: 8px">
+        <section
+          class="hyperLinks"
+          style="border: 1px solid black; padding: 8px; margin-top: 8px"
+        >
+          <h2>Hyper Links</h2>
+          <p>
+            visit
+            <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+            to learn HTML
+          </p>
+          <a href="#lists">Go to list section</a>
+        </section>
+        <section
+          class="image"
+          style="border: 1px solid black; padding: 8px; margin-top: 8px"
+        >
+          <h2>Accessible image</h2>
+          <figure>
+            <img
+              src="./0_lD4G8fqQC7ffPRvP.png"
+              alt="Accessible image"
+              width="100"
+              height="100"
+            />
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figure>
+        </section>
+        <section
+          class="lists"
+          id="lists"
+          style="border: 1px solid black; padding: 8px; margin-top: 8px"
+        >
+          <h2>Useful HTML lists</h2>
+          <h3>Unorder List :</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java script</li>
+            </ul>
+          <h3>order List (Type="A"):</h3>
+            <ol type="A">
+                <li>semantic tags</li>
+                <li>tables</li>
+                <li>forms</li>
+            </ol>
+          <h3>Description List:</h3>
+            <dl type="A">
+                <dt >Coffee</dt>
+                <dd>Black Hot Drink</dd>
+                <dt>Milk</dt>
+                <dd>White Cold Drink</dd>
+            </dl>
+        </section>
+        <section
+          class="table"
+          style="border: 1px solid black; padding: 8px; margin-top: 8px"
+        >
+          <h2>Table Example</h2>
+          <table border="1" style="width: 800px;">
+            <thead>
+                <th>Feature</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Semantic Tag</td>
+                    <td>Gives Meaning content</td>
+                </tr>
+                <tr>
+                    <td>Non-semantic tags</td>
+                    <td>Only used for layout</td>
+                </tr>
+                <tr>
+                    <td colspan="2">More tage to be Added</td>
+                </tr>
+            </tbody>
+          </table>
+        </section>
+        <section class="tip" style="border: 1px solid black; padding: 8px; margin-top: 8px">
+            <h2>Quick Tip</h2>
+            <p>Always use the alt in &lt;img&gt; for SEO</p>
+        </section>
+
+      </article>
+    </main>
+    <div class="cotact-us" style="border: 1px solid black; padding: 8px; margin-top: 8px">
+        <h2>Contact us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message"></textarea><br>
+            <button>Click</button>
+        </form>
+    </div>
+    <footer style="border: 1px solid black; padding: 8px; margin-top: 8px">
+        <h2>&copy; 2025 Web Tutorial</h2>
+        <p>Validate Your Code at <a href="https://validator.w3.org/" target="_blank">W3C Validator</a></p>
+    </footer>
+  </body>
+</html>
