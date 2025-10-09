@@ -1,0 +1,20 @@
+<section id="portoflio" class="portfolio py-5">
+  <div class="container">
+    <div class="text text-center">
+      <h2>Portfolio</h2>
+      <div class="star">
+        <i class="fa-solid fa-star"></i>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4 overflow-hidden" *ngFor="let image of portfolioImages">
+        <div class="img">
+          <img [src]="image" alt="" />
+          <div class="overlay">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

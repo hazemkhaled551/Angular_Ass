@@ -1,0 +1,68 @@
+.contact {
+  /* background-color: #1abc9c; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  font-family: "Raleway", sans-serif;
+  padding: 3rem 0;
+}
+.star {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  position: relative;
+}
+.star::before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 34%;
+  width: 130px;
+  height: 5px;
+  background-color: #000;
+}
+.star::after {
+  content: "";
+  position: absolute;
+  top: 21px;
+  right: 34%;
+  width: 130px;
+  height: 5px;
+  background-color: #000;
+}
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.form-control {
+  font-size: 1.5rem;
+  border-width: 0 0 1px 0;
+  color: #696363;
+}
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control::placeholder {
+  color: #696363;
+}
+.btn{
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
